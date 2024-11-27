@@ -34,7 +34,7 @@ const router = createBrowserRouter([
 					fetch(`http://localhost:5000/coffee/${params.id}`),
 			},
 			{
-				path: "/signUp",
+				path: "/signup",
 				element: <SignUp></SignUp>,
 			},
 			{
